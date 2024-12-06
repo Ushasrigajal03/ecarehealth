@@ -1,0 +1,98 @@
+/* Container for the whole section */
+.approach-container {
+    text-align: center;
+    padding: 2rem;
+    font-family: Arial, sans-serif;
+  }
+  
+  .approach-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #005500;
+    margin-bottom: 3rem;
+  }
+  
+  /* Steps Wrapper */
+  .steps-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Individual Step Styles */
+  .step {
+    flex: 1;
+    max-width: 250px;
+    text-align: left;
+    padding: 0 1rem;
+  }
+  
+  .step h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #005500;
+  }
+  
+  .step h4 {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #000000;
+    margin: 0.5rem 0;
+  }
+  
+  .step p {
+    font-size: 1rem;
+    color: #333333;
+    line-height: 1.5;
+  }
+  
+
+  
+  /* Ensure responsiveness */
+  
+  /* Responsive Design for Smaller Screens */
+  @media screen and (max-width: 768px) {
+    .steps-wrapper {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .step {
+      max-width: 100%;
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+  
+    
+  }
+  
+  /* Keyframes for slide-in animation */
+@keyframes slideInUp {
+    from {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Hidden state */
+  .scroll-hidden {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+  }
+  
+  /* Visible state */
+  .scroll-visible {
+    opacity: 1;
+    transform: translateY(0);
+    animation: slideInUp 0.6s ease-out forwards;
+  }
+  
+  

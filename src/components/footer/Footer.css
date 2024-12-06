@@ -1,0 +1,45 @@
+.footer-container {
+    border-top: 1px solid #ddd;
+  }
+  
+  .footer-container h5 {
+    font-weight: bold;
+  }
+  
+  .footer-container ul {
+    padding: 0;
+    list-style: none;
+  }
+  
+  .footer-container ul li {
+    margin-bottom: 8px;
+  }
+  
+  .footer-container ul li a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .footer-container ul li a:hover {
+    color: #007bff;
+    text-decoration: underline;
+  }
+  .FooterData {
+    margin: 0 auto; 
+  }
+  
+  @media (max-width: 768px) {
+    .FooterData {
+      text-align: center; 
+    }
+  
+    .FooterData ul {
+      padding: 0;
+      list-style: none; 
+    }
+  
+    .FooterData ul li {
+      margin-bottom: 10px; 
+    }
+  }
+  

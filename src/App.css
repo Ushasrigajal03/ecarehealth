@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+  .logo{
+    width: 250px;
+    height: 100px;
+  }
+  /* .hero-section{
+    background-image: url("/src/assets/herosection.jpg");
+  } */
+   .carousel_image{
+    height: 514px;
+   }
+  
+   .about-us{
+    width: 500px;
+    height: 100px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  
+   }
+   @keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+  }
+  
+  h1 {
+    margin-top: 20px;
+    color: #333;
+  }
+  
+  /* .careers-card-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+  } */
+  
+  /* .careers-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  } */
+  
+  .careers-card h2 {
+    margin-bottom: 10px;
+    color: #145a32;
+  }
+  
+  .careers-card p {
+    margin-bottom: 15px;
+    color: #666;
+  }
+  
+  /* .careers-btn-apply {
+    background-color: #145a32;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  } */
+  
+  .hero-card{
+    height: 300px;
+  }
+  .careers-btn-apply:hover {
+    background-color: #0e4725;
+  }
+  
+  .careers-form-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+  
+  .careers-form-container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    width: 400px;
+    position: relative;
+  }
+  
+  .careers-form-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .careers-btn-submit {
+    background-color: #145a32;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .careers-btn-submit:hover {
+    background-color: #0e4725;
+  }
+  
+  .careers-btn-close {
+    background-color: #ddd;
+    color: #333;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .careers-btn-close:hover {
+    background-color: #bbb;
+  }
+  
+  .works-card{
+  height: 350px;
+  }
