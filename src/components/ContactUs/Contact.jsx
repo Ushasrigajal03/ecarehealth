@@ -59,7 +59,7 @@ const Contact = () => {
               className="col-12 col-md-5 ms-0 text-center text-md-start "
               style={{ marginTop: "50px" }}
             >
-              <h2 style={{ fontWeight: "bold", color: "#4f1a69" }}>
+              <h2 style={{ fontWeight: "bold", color:"#394ff7" }}>
                 Get in Touch
               </h2>
               <h6 style={{ fontWeight: "bold" }}>
@@ -134,8 +134,8 @@ const Contact = () => {
             </div>
             <div className="col-12 col-md-7">
               <div className="row">
-                <div className="contact-form-container bg-white">
-                  <h2>Send us a message</h2>
+                <div className="contact-form-container bg-white" style={{color:"#394ff7"}}>
+                  <h2 style={{color:"#394ff7"}}>Send us a message</h2>
                   <form className="form">
                     <div className="form-row">
                       <div className="form-group">

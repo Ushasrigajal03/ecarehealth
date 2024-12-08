@@ -35,7 +35,7 @@ const Approach = () => {
 
   return (
     <div className="approach-container">
-      <h1 className="approach-title" style={{ fontSize: "40px" ,color:"#394ff7"}}>
+      <h1 className="approach-title" style={{ fontSize: "40px" ,color:"#333"}}>
         Care Journey
       </h1>
       <div className="steps-wrapper">
