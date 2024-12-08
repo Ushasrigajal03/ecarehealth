@@ -1,12 +1,16 @@
 import React, { useState } from "react";
 import "../../App.css";
-import herosection from "../../assets/herosection.jpg";
+// import herosection from "../../assets/herosection.jpg";
 import hospital1 from "../../assets/hospital1.svg";
 import doctor from "../../assets/doctor.svg";
 import pharma from "../../assets/pharma.svg";
 import physcotherapy from "../../assets/physcotherapy.svg";
 import xray from "../../assets/xray.svg";
 import ambulance from "../../assets/ambulance.svg";
+import EcareHeroImage from '../../assets/EcareHeroImage.gif'
+import Pharmacy from '../../assets/Pharmacy.jpg'
+import Hospital from '../../assets/Hospital.jpg'
+import Doctor from '../../assets/Doctor.jpg'
 const Home = () => {
   const [expandedCard, setExpandedCard] = useState(null);
 
@@ -16,109 +20,7 @@ const Home = () => {
   return (
     <>
       <section className="hero-section">
-        <div className="grid">
-          <div className="carousels">
-            <div
-              id="carouselExampleCaptions"
-              className="carousel slide"
-              data-bs-ride="carousel"
-              data-bs-interval="3000"
-            >
-              <div className="carousel-indicators">
-                <button
-                  type="button"
-                  data-bs-target="#carouselExampleCaptions"
-                  data-bs-slide-to="0"
-                  className="active"
-                  aria-current="true"
-                  aria-label="Slide 1"
-                ></button>
-                <button
-                  type="button"
-                  data-bs-target="#carouselExampleCaptions"
-                  data-bs-slide-to="1"
-                  aria-label="Slide 2"
-                ></button>
-                <button
-                  type="button"
-                  data-bs-target="#carouselExampleCaptions"
-                  data-bs-slide-to="2"
-                  aria-label="Slide 3"
-                ></button>
-              </div>
-              <div className="carousel-inner">
-                <div className="carousel-item active">
-                  <img
-                    src={herosection}
-                    className="d-block w-100 carousel_image"
-                    alt="..."
-                  />
-                  <div className="carousel-caption d-none d-md-block">
-                    <h5>
-                      Compassionate Insurance & Medical Solutions for Elders.
-                    </h5>
-                    <p>
-                      Ensuring peace of mind with tailored healthcare and
-                      insurance solutions for your golden years
-                    </p>
-                  </div>
-                </div>
-                <div className="carousel-item">
-                  <img
-                    src={herosection}
-                    className="d-block w-100 carousel_image"
-                    alt="..."
-                  />
-                  <div className="carousel-caption d-none d-md-block">
-                    <h5>Second slide label</h5>
-                    <p>
-                      Some representative placeholder content for the second
-                      slide.
-                    </p>
-                  </div>
-                </div>
-                <div className="carousel-item">
-                  <img
-                    src={herosection}
-                    className="d-block w-100 carousel_image"
-                    alt="..."
-                  />
-                  <div className="carousel-caption d-none d-md-block">
-                    <h5>Third slide label</h5>
-                    <p>
-                      Some representative placeholder content for the third
-                      slide.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <button
-                className="carousel-control-prev"
-                type="button"
-                data-bs-target="#carouselExampleCaptions"
-                data-bs-slide="prev"
-              >
-                <span
-                  className="carousel-control-prev-icon"
-                  aria-hidden="true"
-                ></span>
-                <span className="visually-hidden">Previous</span>
-              </button>
-              <button
-                className="carousel-control-next"
-                type="button"
-                data-bs-target="#carouselExampleCaptions"
-                data-bs-slide="next"
-              >
-                <span
-                  className="carousel-control-next-icon"
-                  aria-hidden="true"
-                ></span>
-                <span className="visually-hidden">Next</span>
-              </button>
-            </div>
-          </div>
-        </div>
+        <img src={EcareHeroImage} alt="EcareHeroImage"  width="100%"/>
       </section>
 
       <section className="services">
@@ -138,10 +40,10 @@ const Home = () => {
             <div className="services">
               <h1 className="text-center my-5">Our Coverage</h1>
               <div className="row mt-3">
-                <div className="col-md-4">
-                  <div className="hero-card my-4 shadow-lg">
+                <div className="col-md-4" >
+                  <div className="hero-card my-4 shadow-lg  hover-zoom " style={{borderRadius:'20px' ,height:'320px'}}>
                     <div className="card-body text-center">
-                        <img src={hospital1} alt=""  height="100px" className="mt-2"/>
+                        <img src={hospital1} alt=""  height="80px" className="mt-2"/>
                       <h2 className="my-4">Hospitals & Network</h2>
                       <p className="mx-2">
                         Access an extensive network of top-tier hospitals and healthcare facilities,
@@ -151,9 +53,9 @@ const Home = () => {
                   </div>
                 </div>
                 <div className="col-md-4">
-                  <div className="hero-card my-4 shadow-lg">
+                  <div className="hero-card my-4 shadow-lg  hover-zoom" style={{borderRadius:'20px' ,height:'320px'}}>
                     <div className="card-body text-center">
-                        <img src={doctor} alt="" height="100px" className="mt-2"/>
+                        <img src={doctor} alt="" height="80px" className="mt-2"/>
                       {/* <i
                         className="fa fa-user-md  mt-4 text-primary"
                         style={{ fontSize: "50px" }}
@@ -168,9 +70,9 @@ const Home = () => {
                   </div>
                 </div>
                 <div className="col-md-4">
-                  <div className="hero-card my-4 shadow-lg">
+                  <div className="hero-card my-4 shadow-lg  hover-zoom" style={{borderRadius:'20px',height:'320px'}}>
                     <div className="card-body text-center">
-                        <img src={pharma} alt="" height="100px" className="mt-2"/>
+                        <img src={pharma} alt="" height="80px" className="mt-2"/>
                       {/* <i
                         className="fa fa-pills  mt-4 text-primary"
                         style={{ fontSize: "50px" }}
@@ -185,9 +87,9 @@ const Home = () => {
                   </div>
                 </div>
                 <div className="col-md-4">
-                  <div className="hero-card my-4 shadow-lg">
+                  <div className="hero-card my-4 shadow-lg  hover-zoom" style={{borderRadius:'20px',height:'320px'}}>
                     <div className="card-body text-center">
-                        <img src={physcotherapy} alt="" height="100px" className="mt-2"/>
+                        <img src={physcotherapy} alt="" height="80px" className="mt-2"/>
                       {/* <i
                         className="fa fa-stethoscope  mt-4 text-primary"
                         style={{ fontSize: "50px" }}
@@ -202,9 +104,9 @@ const Home = () => {
                   </div>
                 </div>
                 <div className="col-md-4">
-                  <div className="hero-card my-4 shadow-lg">
+                  <div className="hero-card my-4 shadow-lg  hover-zoom"  style={{borderRadius:'20px',height:'320px'}}>
                     <div className="card-body text-center">
-                        <img src={xray} alt=""  height="100px" className="mt-2"/>
+                        <img src={xray} alt=""  height="80px" className="mt-2"/>
                       {/* <i
                         className="fa fa-x-ray mt-4 text-primary"
                         style={{ fontSize: "50px" }}
@@ -218,9 +120,9 @@ const Home = () => {
                   </div>
                 </div>
                 <div className="col-md-4">
-                  <div className="hero-card my-4 shadow-lg">
+                  <div className="hero-card my-4 shadow-lg  hover-zoom" style={{borderRadius:'20px',height:'320px'}}>
                     <div className="card-body text-center">
-                        <img src={ambulance} alt="" height="100px" className="mt-2"/>
+                        <img src={ambulance} alt="" height="80px" className="mt-2"/>
                       {/* <i
                         className="fa fa-ambulance mt-4 text-primary"
                         style={{ fontSize: "50px" }}
@@ -251,54 +153,63 @@ const Home = () => {
               </p>
             </div>
             <div className="row mt-3">
-              {/* Loop through cards */}
-              {["Hospitals & Network", "Doctors & Nursing", "Pharma"].map(
-                (service, index) => (
-                  <div className="col-md-4" key={index}>
-                    <div className="works-card my-4 shadow-lg">
-                      <div className="card-body text-center">
-                        <img src={hospital1} alt="" height="100px" className="mt-2"/>
-                        {/* <i className="fa fa-hospital mt-4 text-primary"
-                        style={{fontSize:"50px"}}
-                        /> */}
-                        <h2 className="my-4">{service}</h2>
-                        <p className="mx-2">
-                          {service === "Hospitals & Network"
-                            ? "View our extensive list of trusted network hospitals, each chosen " +
-                              "for their quality care and comprehensive services. With just a click, " +
-                              "discover facilities near you, review their specialties, and select " +
-                              "the best option for your healthcare needs."
-                            : service === "Doctors & Nursing"
-                            ? "Connect with the right medical professionals at the right time. " +
-                                  "Start with RMP doctors for in-home primary care and routine " +
-                                  "consultations, and if needed, move on to region-specific M.B.B.S " +
-                                  "doctors for more complex cases or specialized care."
-                            : "Access essential medications from our evolving pharmacy solutions" +
-                                  "—whether through a marketplace or direct " +
-                                  "network-hospital fulfillment. Our flexible delivery ensures that " +
-                                  "prescriptions arrive promptly at your doorstep, keeping your " +
-                                  "treatment plan on track."}
-                        </p>
-                        <button
-                          className="btn btn-success"
-                          onClick={() => toggleContent(index)}
-                        >
-                          {expandedCard === index ? "See Less" : "See More"}
-                        </button>
-                        {expandedCard === index && (
-                          <div className="mt-3">
-                            <p>
-                              Additional details about {service}. You can add
-                              more descriptive content here.
-                            </p>
-                          </div>
-                        )}
-                      </div>
-                    </div>
-                  </div>
-                )
-              )}
+  {/* Array of image URLs */}
+  {[{ src: "src/assets/Hospital.jpg", alt: "Hospital Image" },
+    { src: "src/assets/Doctor.jpg", alt: "Doctor Image" },
+    { src: "src/assets/Pharmacy.jpg", alt: "Pharmacy Image" }].map((imageUrl, index) => (
+    <div className="col-md-4" key={index}>
+      <div className="works-card my-4 shadow-xl hover-zoom" style={{borderRadius:'20px'}}>
+        <div className="card-body text-center">
+          {/* Dynamic Image */}
+          {console.log(imageUrl)}
+          <img src={imageUrl.src} alt="" height="60x" className="mt-2" />
+          {/* <i className="fa fa-hospital mt-4 text-primary"
+          style={{fontSize:"50px"}}
+          /> */}
+          <h2 className="my-4">
+            {["Hospitals & Network", "Doctors & Nursing", "Pharma"][index]}
+          </h2>
+          <p className="mx-2">
+            {["Hospitals & Network", "Doctors & Nursing", "Pharma"][index] ===
+            "Hospitals & Network"
+              ? "View our extensive list of trusted network hospitals, each chosen " +
+                "for their quality care and comprehensive services. With just a click, " +
+                "discover facilities near you, review their specialties, and select " +
+                "the best option for your healthcare needs."
+              : ["Hospitals & Network", "Doctors & Nursing", "Pharma"][index] ===
+                "Doctors & Nursing"
+              ? "Connect with the right medical professionals at the right time. " +
+                "Start with RMP doctors for in-home primary care and routine " +
+                "consultations, and if needed, move on to region-specific M.B.B.S " +
+                "doctors for more complex cases or specialized care."
+              : "Access essential medications from our evolving pharmacy solutions" +
+                "—whether through a marketplace or direct " +
+                "network-hospital fulfillment. Our flexible delivery ensures that " +
+                "prescriptions arrive promptly at your doorstep, keeping your " +
+                "treatment plan on track."}
+          </p>
+          <button
+            className="btn"
+            style={{backgroundColor:"#394ff7" , color:'white'} }
+            onClick={() => toggleContent(index)}
+          >
+            {expandedCard === index ? "See Less" : "See More"}
+          </button>
+          {expandedCard === index && (
+            <div className="mt-3">
+              <p>
+                Additional details about{" "}
+                {["Hospitals & Network", "Doctors & Nursing", "Pharma"][index]}.
+                You can add more descriptive content here.
+              </p>
             </div>
+          )}
+        </div>
+      </div>
+    </div>
+  ))}
+</div>
+
           </div>
         </div>
       </section>

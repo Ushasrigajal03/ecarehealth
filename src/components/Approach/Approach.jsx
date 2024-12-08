@@ -35,7 +35,7 @@ const Approach = () => {
 
   return (
     <div className="approach-container">
-      <h1 className="approach-title" style={{ fontSize: "40px" }}>
+      <h1 className="approach-title" style={{ fontSize: "40px" ,color:"#394ff7"}}>
         Care Journey
       </h1>
       <div className="steps-wrapper">
@@ -44,7 +44,7 @@ const Approach = () => {
           className="step step-1 scroll-hidden"
           ref={(el) => (divRefs.current[0] = el)}
         >
-          <h3>Step-01</h3>
+          <h3 style={{color:"#394ff7"}}>Step-01</h3>
           <h4>Initial Contact</h4>
           <p style={{fontSize:'14px'}}>
             Your healthcare journey starts with a simple phone call. Our dedicated call center
@@ -58,7 +58,7 @@ const Approach = () => {
           className="step step-2 scroll-hidden"
           ref={(el) => (divRefs.current[1] = el)}
         >
-          <h3>Step-02</h3>
+          <h3 style={{color:"#394ff7"}}>Step-02</h3>
           <h4>Rapid Response</h4>
           <p style={{fontSize:'14px'}}>
             Once we have your details, we quickly dispatch a qualified caregiver to assist you—aiming
@@ -72,7 +72,7 @@ const Approach = () => {
           className="step step-3 scroll-hidden " 
           ref={(el) => (divRefs.current[2] = el)}
         >
-          <h3>Step-03</h3>
+          <h3 style={{color:"#394ff7"}}>Step-03</h3>
           <h4>Tailored Care</h4>
           <p style={{fontSize:'14px'}}>
             Based on the initial assessment, you’ll receive the care you need right where you are.
@@ -86,7 +86,7 @@ const Approach = () => {
           className="step step-4 scroll-hidden"
           ref={(el) => (divRefs.current[3] = el)}
         >
-          <h3>Step-04</h3>
+          <h3 style={{color:"#394ff7"}}>Step-04</h3>
           <h4>Care Delivery</h4>
           <p style={{fontSize:'14px'}}>
             Your healthcare journey concludes with coordinated care delivery. We oversee all

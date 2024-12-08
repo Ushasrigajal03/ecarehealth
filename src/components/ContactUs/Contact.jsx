@@ -93,7 +93,7 @@ const Contact = () => {
                     </div>
                     <div className="text">
                       <p>Email:</p>
-                      <a href="mailto:Info@megaleap.ai">Info@megaleap.ai</a>
+                      <a href="mailto:Info@megaleap.ai">info@ecarehealth.org</a>
                     </div>
                   </div>
 
@@ -126,7 +126,7 @@ const Contact = () => {
                     </div>
                     <div className="text">
                       <p>Phone:</p>
-                      <a href="tel:+917396313939">(+91) 7396 31 3939</a>
+                      <a href="tel:+917396313939">(+91) 9786 21 7821</a>
                     </div>
                   </div>
                 </div>
@@ -189,7 +189,7 @@ const Contact = () => {
                       ></textarea>
                     </div>
 
-                    <button type="submit" className="submit-button">
+                    <button type="submit" className="submit-button" style={{backgroundColor:"#394ff7" , color:'white'} }>
                       Contact us
                     </button>
                   </form>

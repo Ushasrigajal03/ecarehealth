@@ -51,100 +51,48 @@
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   } */
   
-  .careers-card h2 {
-    margin-bottom: 10px;
-    color: #145a32;
-  }
-  
-  .careers-card p {
-    margin-bottom: 15px;
-    color: #666;
-  }
-  
-  /* .careers-btn-apply {
-    background-color: #145a32;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-  } */
-  
-  .hero-card{
-    height: 300px;
-  }
-  .careers-btn-apply:hover {
-    background-color: #0e4725;
+  .job-application {
+    background-color: #f8f9fa;
   }
   
   .careers-form-modal {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.5);
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
     display: flex;
-    align-items: center;
     justify-content: center;
-    z-index: 1000;
+    align-items: center;
   }
   
   .careers-form-container {
-    background-color: #fff;
+    background-color: white;
     padding: 30px;
-    border-radius: 10px;
-    width: 400px;
-    position: relative;
-  }
-  
-  .careers-form-container h2 {
-    margin-bottom: 20px;
-    color: #333;
-  }
-  
-  form label {
-    display: block;
-    margin-bottom: 5px;
-    color: #555;
-  }
-  
-  form input {
+    border-radius: 8px;
+    max-width: 600px;
     width: 100%;
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
   }
   
   .careers-btn-submit {
-    background-color: #145a32;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-right: 10px;
-  }
-  
-  .careers-btn-submit:hover {
-    background-color: #0e4725;
+    background-color: #007bff;
+    color: white;
   }
   
   .careers-btn-close {
-    background-color: #ddd;
-    color: #333;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  .careers-btn-close:hover {
-    background-color: #bbb;
+    background-color: #6c757d;
+    color: white;
+    margin-left: 10px;
   }
   
   .works-card{
   height: 350px;
+  }
+  .hover-zoom {
+    transition: transform 0.3s ease-in-out; /* Smooth transition */
+  }
+  
+  .hover-zoom:hover {
+    transform: scale(1.05); /* Slightly zoom in on hover */
   }

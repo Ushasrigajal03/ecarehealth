@@ -1,0 +1,40 @@
+.about-us-container {
+    font-family: "Arial", sans-serif;
+    line-height: 1.6;
+  }
+  
+  h1, h2 {
+    font-weight: bold;
+  }
+  
+  .lead {
+    font-size: 1.2rem;
+  }
+  
+  .mission-vision p,
+  .what-we-offer p,
+  .why-choose-us p {
+    text-align: justify;
+  }
+  
+  .card {
+    border: none;
+    border-radius: 10px;
+  }
+  
+  .card-title {
+    font-weight: bold;
+  }
+  
+  .list-group-item {
+    border: none;
+    background-color: transparent;
+    font-size: 1rem;
+  }
+  
+  @media (max-width: 768px) {
+    .mission-vision .col-md-6 {
+      margin-bottom: 2rem;
+    }
+  }
+  
