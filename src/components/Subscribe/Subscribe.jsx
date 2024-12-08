@@ -24,15 +24,17 @@ const Subscribe = () => {
       >
         <div className="text-center p-5">
           <p className="pt-3 my-3" style={{ fontSize: '35px', fontFamily: 'serif' }}>
-            Ready to Secure Your Future?
+            Ready for Better Health Coverage?
           </p>
           <p className="mb-4 px-3">
-            Contact us today for a personalized consultation and take the first step toward a worry-free life.
+            Contact us today for a personalized preview of our upcoming services and be among the
+            first to experience a new era in accessible, worry-free healthcare.
           </p>
           <p className="my-3" style={{ fontSize: '35px', fontFamily: 'serif' }}>
-            Join 900+ subscribers
+            Be the First to Know
           </p>
-          <p className="mb-4">Stay in the loop with everything you need to know.</p>
+          <p className="mb-4">Stay informed about our launch and early offerings. Sign up now to
+            receive updates and important announcements straight to your inbox.</p>
           <button className="btn btn-dark px-4 py-2">Subscribe</button>
         </div>
       </div>

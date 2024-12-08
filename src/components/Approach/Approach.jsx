@@ -36,7 +36,7 @@ const Approach = () => {
   return (
     <div className="approach-container">
       <h1 className="approach-title" style={{ fontSize: "40px" }}>
-        Our Approach
+        Care Journey
       </h1>
       <div className="steps-wrapper">
         {/* Step 1 */}
@@ -45,10 +45,11 @@ const Approach = () => {
           ref={(el) => (divRefs.current[0] = el)}
         >
           <h3>Step-01</h3>
-          <h4>Discovery & Research</h4>
+          <h4>Initial Contact</h4>
           <p style={{fontSize:'14px'}}>
-            We start by understanding your business and audience, identifying
-            growth opportunities through data.
+            Your healthcare journey starts with a simple phone call. Our dedicated call center
+            team listens, understands your needs, and sets everything in motion to deliver prompt,
+            personalized care.
           </p>
         </div>
 
@@ -58,10 +59,11 @@ const Approach = () => {
           ref={(el) => (divRefs.current[1] = el)}
         >
           <h3>Step-02</h3>
-          <h4>Strategic Planning</h4>
+          <h4>Rapid Response</h4>
           <p style={{fontSize:'14px'}}>
-            With insights in hand, we create a tailored marketing strategy
-            designed for maximum impact.
+            Once we have your details, we quickly dispatch a qualified caregiver to assist you—aiming
+            to be at your side within just <strong> 9 minutes </strong>. Our goal is to ensure timely attention and
+            peace of mind.
           </p>
         </div>
 
@@ -71,10 +73,11 @@ const Approach = () => {
           ref={(el) => (divRefs.current[2] = el)}
         >
           <h3>Step-03</h3>
-          <h4>Execution & Optimization</h4>
+          <h4>Tailored Care</h4>
           <p style={{fontSize:'14px'}}>
-            Campaigns are launched across channels, with ongoing optimization
-            to ensure the best results.
+            Based on the initial assessment, you’ll receive the care you need right where you are.
+            If needed, we connect you with a regional doctor, specialist, or network hospital for
+            more advanced treatment.
           </p>
         </div>
 
@@ -84,10 +87,11 @@ const Approach = () => {
           ref={(el) => (divRefs.current[3] = el)}
         >
           <h3>Step-04</h3>
-          <h4>Analytics & Reporting</h4>
+          <h4>Care Delivery</h4>
           <p style={{fontSize:'14px'}}>
-            Detailed reports and actionable insights are delivered, keeping you
-            informed every step of the way.
+            Your healthcare journey concludes with coordinated care delivery. We oversee all
+            services, track progress, and provide support—helping you move forward with greater
+            confidence and health.
           </p>
         </div>
       </div>

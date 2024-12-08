@@ -126,17 +126,17 @@ const Home = () => {
           <div className="grid">
             <div className="col-md-12 col-lg-12 mt-5">
               <div className="supplements text-center">
-                <h2>Supplement Your Coverage with Medigap</h2>
+                <h2>Your Health, Our Promise</h2>
                 <p className="mt-4">
-                  Bridge the gaps in your Medicare coverage with Medigap plans
-                  that cover copayments, deductibles, and more. We offer expert
-                  advice to help you choose the best policy for your peace of
-                  mind.
+                  At eCareHealth, we provide holistic healthcare coverage—offering personalized
+                  guidance, seamless services, and comprehensive support at every stage of your
+                  journey from prevention to recovery—so you can stay healthier, happier, and
+                  confidently cared for.
                 </p>
               </div>
             </div>
             <div className="services">
-              <h1 className="text-center my-5">Our Services</h1>
+              <h1 className="text-center my-5">Our Coverage</h1>
               <div className="row mt-3">
                 <div className="col-md-4">
                   <div className="hero-card my-4 shadow-lg">
@@ -144,9 +144,8 @@ const Home = () => {
                         <img src={hospital1} alt=""  height="100px" className="mt-2"/>
                       <h2 className="my-4">Hospitals & Network</h2>
                       <p className="mx-2">
-                        Partnered with top-tier hospitals and healthcare
-                        networks to provide seamless and reliable medical care
-                        whenever, wherever you need it.
+                        Access an extensive network of top-tier hospitals and healthcare facilities,
+                        ensuring seamless, expert treatment whenever and wherever you need it.
                       </p>
                     </div>
                   </div>
@@ -161,9 +160,9 @@ const Home = () => {
                       /> */}
                       <h2 className="my-4">Doctors & Nursing</h2>
                       <p className="mx-2">
-                        Access expert doctors and professional nursing care,
-                        offering personalized medical support and recovery
-                        assistance at home or trusted facilities.
+                        Benefit from personalized medical guidance and professional nursing support
+                        —whether at home or in a trusted care facility—to help you recover
+                        comfortably and confidently.
                       </p>
                     </div>
                   </div>
@@ -178,9 +177,9 @@ const Home = () => {
                       /> */}
                       <h2 className="my-4">Pharma</h2>
                       <p className="mx-2">
-                        Convenient and timely access to essential medications
-                        through our trusted pharmacy partners, ensuring you
-                        never miss a dose.
+                        Gain reliable access to essential medications delivered through our
+                        certified pharmacy partners, so you never skip a dose and always stay
+                        on track with your health.
                       </p>
                     </div>
                   </div>
@@ -195,9 +194,9 @@ const Home = () => {
                       /> */}
                       <h2 className="my-4">Physiotherapy</h2>
                       <p className="mx-2">
-                        PRegain mobility and strength with specialized
-                        physiotherapy services tailored to your recovery and
-                        wellness goals.
+                        Rebuild strength, restore mobility, and accelerate your recovery with
+                        specialized physiotherapy services, tailored to your unique wellness goals
+                        and provided at your convenience.
                       </p>
                     </div>
                   </div>
@@ -212,9 +211,8 @@ const Home = () => {
                       /> */}
                       <h2 className="my-4">Lab & Diagnostics</h2>
                       <p className="mx-2">
-                        Quick and accurate diagnostic tests with home collection
-                        options, making healthcare more accessible and
-                        hassle-free.
+                        Utilize accurate, hassle-free diagnostic testing—often with home collection
+                        options—ensuring timely, informed decisions about your health and well-being.
                       </p>
                     </div>
                   </div>
@@ -229,9 +227,8 @@ const Home = () => {
                       /> */}
                       <h2 className="my-4">Ambulance Services</h2>
                       <p className="mx-2">
-                        Round-the-clock ambulance services to ensure timely
-                        medical attention during emergencies, providing peace of
-                        mind to you and your family.
+                        Count on round-the-clock ambulance support for prompt emergency response,
+                        offering peace of mind when every second counts.
                       </p>
                     </div>
                   </div>
@@ -246,11 +243,11 @@ const Home = () => {
         <div className="container">
           <div className="grid">
             <div className="col-md-12 col-lg-12 mt-5">
-              <h1 className="text-center">How It Works</h1>
-              <p className="text-lead mt-4">
-                Navigating healthcare services should be simple and stress-free.
-                Follow these steps to connect with doctors, nursing care, and
-                other essential services tailored for your needs.
+              <h1 className="text-center">The Holistic Care Ecosystem</h1>
+              <p className="text-center mt-4">
+                Navigating your healthcare journey should be seamless. Explore each segment to
+                access tailored care, connect with the right professionals, and ensure timely
+                delivery of essential medicines.
               </p>
             </div>
             <div className="row mt-3">
@@ -267,10 +264,20 @@ const Home = () => {
                         <h2 className="my-4">{service}</h2>
                         <p className="mx-2">
                           {service === "Hospitals & Network"
-                            ? "Partnered with top-tier hospitals and healthcare networks."
+                            ? "View our extensive list of trusted network hospitals, each chosen " +
+                              "for their quality care and comprehensive services. With just a click, " +
+                              "discover facilities near you, review their specialties, and select " +
+                              "the best option for your healthcare needs."
                             : service === "Doctors & Nursing"
-                            ? "Access expert doctors and professional nursing care."
-                            : "Convenient access to essential medications."}
+                            ? "Connect with the right medical professionals at the right time. " +
+                                  "Start with RMP doctors for in-home primary care and routine " +
+                                  "consultations, and if needed, move on to region-specific M.B.B.S " +
+                                  "doctors for more complex cases or specialized care."
+                            : "Access essential medications from our evolving pharmacy solutions" +
+                                  "—whether through a marketplace or direct " +
+                                  "network-hospital fulfillment. Our flexible delivery ensures that " +
+                                  "prescriptions arrive promptly at your doorstep, keeping your " +
+                                  "treatment plan on track."}
                         </p>
                         <button
                           className="btn btn-success"
